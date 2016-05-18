@@ -38,5 +38,5 @@ server.route [
   }
 ]
 server.start (err) ->
-  console.error 'Server Failed', err if err?
-  console.log "server started at: #{server.info.uri}"
+  if err then console.error 'Server Failed', err else
+    console.log "server started at: #{server.info.uri}"
