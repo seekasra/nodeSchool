@@ -8,11 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "hapi": "^13.4.0",
+  "devDependencies": {
     "inert": "^4.0.0",
     "joi": "^8.1.0",
     "lout": "^9.0.0",
     "vision": "^4.1.0"
+  },
+  "dependencies": {
+    "hapi": "^13.4.0"
   }
 }
