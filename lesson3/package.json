@@ -1,0 +1,19 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kasra",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.4.0",
+    "odme": "^1.1.2",
+    "puffer": "^1.1.0"
+  },
+  "devDependencies": {
+    "yargs": "^4.7.1"
+  }
+}
