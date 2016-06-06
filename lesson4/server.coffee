@@ -17,6 +17,15 @@ server.method('say_hello', say_hello)
 server.route [
   {
   method: 'GET'
+  path: '/{name}'
+  handler: (request, reply) ->
+    reply "Hello #{request.params.name}!"
+  config:
+    description: "Say Hello!"
+    tags: ["hello"]
+  }
+  {
+  method: 'GET'
   path: '/hello/{name}'
   handler: server.methods.say_hello
   config:
